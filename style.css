@@ -1157,4 +1157,128 @@ p{
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-delay: 2s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================
+   RESPONSIVE ADDITIONS (DO NOT REMOVE ANYTHING ABOVE)
+   =============================== */
+
+/* Enable scrolling on mobile */
+@media (max-width: 768px) {
+    body{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+
+    #container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    #container2{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    #container3{
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #container6{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    iframe{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/* Phone adjustments */
+@media (max-width: 768px) {
+
+    #container4{
+        font-size: 28px;
+        height: auto;
+        padding: 10px;
+    }
+
+    #container5{
+        left: 0;
+        width: 100%;
+    }
+
+    #container9{
+        height: 70px;
+    }
+
+    #text{
+        top: 0;
+        width: 100%;
+    }
+
+    #text11{
+        width: 90vw;
+        height: 200px;
+        font-size: 16px;
+    }
+
+    #submit{
+        top: 0;
+    }
+
+    #submit11{
+        width: 90vw;
+        max-width: 300px;
+    }
+
+    button{
+        min-height: 44px;
+    }
+}
+
+/* Fix scrolling animation on small screens */
+@media (max-width: 768px) {
+    @keyframes scroll{
+        0%{
+            transform: translateX(100vw);
+        }
+        100%{
+            transform: translateX(-100vw);
+        }
+    }
 }
