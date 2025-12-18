@@ -1,0 +1,1160 @@
+body{
+    background-color: rgb(3, 34, 148);
+    touch-action: pan-y;
+    overflow: hidden;
+    font-family: "BBH Hegarty", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+#container2{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 60%;
+    height: 1050px;
+    background-color: rgb(92, 129, 214);
+    border-radius: 15px;
+}
+
+#container3{
+    position: relative;
+    top: 100px;
+    width: 200px;
+    height: 850px;
+    background-color: rgb(71, 36, 7);
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: beige;
+}
+
+#container4{
+    position: relative;
+    bottom: 850px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(10, 3, 92);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container5{
+    position: relative;
+    bottom: 850px;
+    left: 200px;
+    width: 75%;
+    height: 90px;
+    background-color: rgb(227, 187, 113);
+}
+
+#container6{
+    position: relative;
+    left: 1326px;
+    bottom: 940px;
+    width: 200px;
+    height: 850px;
+    background-color: rgb(71, 36, 7);
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------*/
+#container7{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(209, 190, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#blogsoon{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+#container8{
+    position: relative;
+    top: 40%;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(209, 190, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container9{
+    position: relative;
+    bottom: 940px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(214, 184, 139);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow: hidden;
+
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+#container10{
+    position: relative;
+    top: 28px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(209, 190, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container11{
+    position: relative;
+    margin-top: 2em;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(209, 190, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container12{
+    position: relative;
+    margin-top: 2em;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(209, 190, 153);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container13{
+    position: absolute;
+    top: 1%;
+}
+
+#container14{
+    position: absolute;
+    top: 1%;
+}
+
+#container15{
+    position: absolute;
+    top: 1%;
+}
+
+
+
+/*container 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33*/
+
+.message {
+  color: rgb(3, 34, 148);
+  padding: 8px 14px;
+  border-radius: 10px;
+  margin: 6px 0;
+
+  animation: popIn 300ms ease-out forwards;
+}
+
+.message.pop-out {
+  animation: popOut 300ms ease-in forwards;
+}
+
+
+
+
+
+
+.top{
+    position: absolute;
+    left: 100%;
+    width: 250;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.middle{
+    position: absolute;
+    left: 100%;
+    bottom: 40px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+  
+}
+
+.bottom{
+    position: absolute;
+    left: 100%;
+    bottom: 5px;
+    width: 250;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+
+ 
+}
+
+.top2{
+    position: absolute;
+    bottom: 75px;
+    left: 100%;
+    width: 250;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+
+   
+}
+
+.middle2{
+    position: absolute;
+    left: 100%;
+    bottom: 40px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+
+}
+
+.bottom2{
+    position: absolute;
+    left: 100%;
+    bottom: 5px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 18s;
+
+    
+}
+
+.top3{
+    position: absolute;
+    bottom: 75px;
+    left: 100%;
+    width: 250;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+
+ 
+}
+
+.middle3{
+    position: absolute;
+    left: 100%;
+    bottom: 40px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+
+   
+}
+
+.bottom3{
+    position: absolute;
+    left: 100%;
+    bottom: 5px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 24s;
+
+   
+}
+
+.top4{
+    position: absolute;
+    bottom: 75px;
+    left: 100%;
+    width: 250;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+
+ 
+}
+
+.middle4{
+    position: absolute;
+    left: 100%;
+    bottom: 40px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 20s;
+
+    
+}
+
+.bottom4{
+    position: absolute;
+    left: 100%;
+    bottom: 5px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 32s;
+
+    
+}
+
+.top5{
+    position: absolute;
+    bottom: 75px;
+    left: 100%;
+    width: 250;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+
+  
+}
+
+.middle5{
+    position: absolute;
+    left: 100%;
+    bottom: 40px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 25s;
+
+  
+}
+
+.bottom5{
+    position: absolute;
+    left: 100%;
+    bottom: 5px;
+    width: 250px;
+    height: 25px;
+    animation-duration: 15s;
+    animation-name: scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 40s;
+
+   
+}
+
+
+/*-------------------------------------------------------*/
+
+#search{
+    position: relative;
+    top: 15px;
+    right: 5px;
+    width: max-content;
+    height: max-content;
+    padding: 14px;
+    border-radius: 50px;
+}
+
+#search11{
+    width: 180px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: "BBH Hegarty", sans-serif;
+    border: none;
+}
+
+
+iframe{
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+    width: 1126px;
+    height: 760px;
+    border: none;
+    resize: none;
+}
+
+
+
+#text{
+    position: relative;
+    top: 40%;
+    width: max-content;
+    height: max-content;
+}
+
+#text11{
+    width: 126%;
+    height: 350px;
+    font-size: 10px;
+    font-family: "BBH Hegarty", sans-serif;
+    border: none;
+    resize: none;
+}
+
+#charNotice{
+    position: absolute;
+    bottom: 10px;
+    color: grey;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+#submit{
+    position: relative;
+    top: 40%;
+    width: max-content;
+    height: max-content;
+}
+
+#submit11{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-family: "BBH Hegarty", sans-serif;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(195, 175, 155);
+    color: beige;
+}
+
+#submit11:hover{
+    background-color: rgb(195, 175, 155);
+    font-weight: bold;
+    color: rgb(60, 50, 45);
+    transform: scale(1);
+    font-size: 20px;
+}
+
+
+
+#buttons{
+    position: relative;
+    right: 30px;
+    width: max-content;
+    height: max-content;
+    margin-left: 40px;
+    margin-top: 2em;
+}
+
+#buttons2{
+    position: relative;
+    right: 30px;
+    width: max-content;
+    height: max-content;
+    margin-left: 40px;
+}
+
+#buttons3{
+    position: relative;
+    right: 30px;
+    width: max-content;
+    height: max-content;
+    margin-left: 40px;
+    display: flex;
+}
+
+#buttons11{
+    margin-top: 1em;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    width: 180px;
+    height: 25px;
+}
+
+
+#buttons12{
+    margin-top: 1.5em;
+    margin-left: 11em;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    width: 180px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: rgb(195, 175, 155);
+    font-weight: bold;
+    position: relative;
+    transform: scale(1.1);
+    animation: ease;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(60, 50, 45);
+    font-family: "BBH Hegarty", sans-serif;
+}
+
+p{
+    margin-top: 0%;
+    font-size: smaller;
+}
+
+
+
+
+
+
+
+@keyframes star{
+    0%{
+        transform: rotate(270deg) translateX(0);
+    }
+
+    100%{
+        transform: rotate(270deg) translateX(-1525px);
+    }
+}
+
+@keyframes scroll{
+    0% {
+        transform: translateX(1750px);
+    }
+    100% {
+          transform: translateX(-2000px);
+    }
+}
+
+@keyframes popIn {
+    0%{
+          opacity: 0;
+          transform: scale(0.8) translateY(10px);
+  }
+    100%{
+        opacity: 1;
+        transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes popOut {
+    0% {
+          opacity: 1;
+          transform: scale(1) translateY(0);
+  }
+    100% {
+        opacity: 0;
+        transform: scale(0.8) translateY(-10px);
+  }
+}
+
+.s1{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 5px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.s2{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 75px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.s3{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+.s4{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 225px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+
+.s5{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+}
+
+.s6{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 375px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+}
+
+.s7{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 450px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 9s;
+}
+
+.s8{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 525px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 20s;
+}
+
+.s9{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 600px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 12s;
+}
+
+.s10{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 675px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 25s;
+}
+
+.s11{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 750px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+}
+
+.s12{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 825px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 30s;
+}
+
+.s13{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 900px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 18s;
+}
+
+.s14{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 975px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 35s;
+}
+
+.s15{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1050px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 21s;
+}
+
+.s16{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1125px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 40s;
+}
+
+.s17{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1200px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 24s;
+}
+
+.s18{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1275px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 45s;
+}
+
+.s19{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1350px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 27s;
+}
+
+.s20{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1425px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 12s;
+}
+
+.s21{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1500px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 20s;
+}
+
+.s22{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1575px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 9s;
+}
+
+.s23{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1650px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+}
+
+.s24{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1725px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 8s;
+}
+
+.s25{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1800px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 12s;
+}
+
+.s26{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1875px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+.s27{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 1950px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 7s;
+}
+
+.s28{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+
+    position: relative;
+    bottom: 50px;
+    left: 2025px;
+
+    box-shadow: 0 0 10px 5px gray;
+    border-radius: 50%;
+
+    animation-duration: 10s;
+    animation-name: star;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
